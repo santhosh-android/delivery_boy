@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1030360726971",
+    "project_id": "dosmios-delivery-2442a",
+    "storage_bucket": "dosmios-delivery-2442a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030360726971:android:162b4eff11c31d100f189e",
+        "android_client_info": {
+          "package_name": "com.app.dosmiosdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030360726971-etof7r78j6baf77g68v00viflgq5d00m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtBP7Ck4EPQl_biAxDVfPOEwmhp6QwnAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030360726971-etof7r78j6baf77g68v00viflgq5d00m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.CodBottomSheetFragment">
+
+    <TextView
+        android:id="@+id/tv_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_toolbar"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="@string/submit_comments"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tv_collect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_comments"
+        tools:text="Please Collect Cash :"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/et_payment_via"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"
+        android:hint="Payment Via"
+        android:layout_below="@id/tv_collect"
+        android:layout_marginLeft="10dp"/>
+
+
+    <EditText
+        android:id="@+id/et_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"
+        android:hint="@string/type_comments_here"
+        android:layout_below="@id/et_payment_via"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/et_comments"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/gradient_toolbar"
+        android:text="@string/submit"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>
